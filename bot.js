@@ -27,7 +27,7 @@ client.user.setGame(`ēpįč:;Ņěţwøřķ,|| bot`,"http://twitch.tv/S-F")
   console.log('')
 });
 
-    var prefix = "#";
+    var prefix = "*";
 
 client.on('message', msg => {
   if (msg.author.bot) return;
